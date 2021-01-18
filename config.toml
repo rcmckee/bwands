@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "rcmckee.github.io"
+baseurl = "https://rcmckee.github.io"
 languageCode = "en-us"
 title = "BWANDS.com - Window shop again"
 theme = "hugrid"
@@ -9,7 +9,7 @@ googleAnalytics = "UA-XXXXXXXX-Y"
 contentdir = "content"
 datadir = "data"
 layoutdir = "layouts"
-publishdir = "(root)"
+publishdir = "/"
 
 [params]
     # Meta
