@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://www.BWANDS.com/"
+baseurl = "https://rcmckee.github.io/bwands"
 languageCode = "en-us"
 title = "BWANDS.com - Window shop again"
 theme = "hugrid"
