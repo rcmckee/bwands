@@ -2,7 +2,7 @@
 layout: post
 title: Project
 description: a project with a background image
-img: /img/photoportfolio/test_1.png
+img: /img/1.jpg
 redirect: https://www.gizmodo.com
 ---
 
