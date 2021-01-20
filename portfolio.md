@@ -52,5 +52,3 @@ galleries:
 {% endif %}
 
 {% endfor %}
-
-{% if page.galleries %}{% include image-gallery-index.html %}{% endif %}
