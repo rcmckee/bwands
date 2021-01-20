@@ -1,15 +1,11 @@
 ---
-layout: page
-permalink: /poetry/
-title: poetry
-description: Showcase your writing, short stories, or poems. Replace this text with your description.
+galleries:
+  - title: Link to homepage
+    image: /uploads/album/1.jpg
+    url: /
+  - title: Link to image gallery
+    image: /uploads/album/2.jpg
+    url: /without-plugin/image-gallery
 ---
 
-<ul class="post-list">
-{% for poem in site.poetry reversed %}
-    <li>
-        <h2><a class="poem-title" href="{{ poem.url | prepend: site.baseurl }}">{{ poem.title }}</a></h2>
-        <p class="post-meta">{{ poem.date | date: '%B %-d, %Y — %H:%M' }}</p>
-      </li>
-{% endfor %}
-</ul>
+{% if page.galleries %}{% include image-gallery-index.html %}{% endif %}
