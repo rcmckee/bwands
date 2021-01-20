@@ -2,6 +2,13 @@
 layout: page
 title: portfolio
 permalink: /portfolio/
+galleries:
+  - title: Link to homepage
+    image: /img/16109952671276.png
+    url: https:www.gizmodo.com
+  - title: Link to image gallery
+    image: /img/16109952671277.png
+    url: https://www.techcrunch.com
 ---
 
 {% for project in site.portfolio limit: 2 %}
@@ -45,3 +52,5 @@ permalink: /portfolio/
 {% endif %}
 
 {% endfor %}
+
+{% if page.galleries %}{% include image-gallery-index.html %}{% endif %}
