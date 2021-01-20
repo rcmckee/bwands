@@ -1,7 +1,7 @@
 ---
 layout: page
 title: portfolio
-permalink: /portfolio/
+
 galleries:
   - title: Link to homepage
     image: /img/16109952671276.png
