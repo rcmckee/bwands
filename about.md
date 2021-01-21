@@ -1,7 +1,7 @@
 ---
 layout: page
 title: about
-permalink: /about/
+
 galleries:
   - title: Link to homepage
     image: /img/full/16109952671276.png
