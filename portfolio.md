@@ -11,7 +11,7 @@ galleries:
     url: https://www.techcrunch.com
 ---
 
-{% for project in site.portfolio limit: 2 %}
+{% for project in site.portfolio%}
 
 {% if project.redirect %}
 <div class="project">
