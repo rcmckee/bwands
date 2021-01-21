@@ -5,7 +5,6 @@ title: about
 galleries:
   - title: Link to homepage
     image: /img/full/16109952671276.png
-    thumb: /img/thumbs/16109952671276.png
     url: https://www.gizmodo.com
   - title: Link to image gallery
     image: /bwands/img/full/16109952671277.png
