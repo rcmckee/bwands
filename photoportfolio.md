@@ -13,7 +13,7 @@ permalink: /photoportfolio/
 <div class="project">
     <div class= "thumbnail">
         <a href="{{ site.baseurl }}{{ image.path }}">
-            <img class="thumbnail" src="/img/blank.png" alt="" data-echo="{{ site.baseurl }}{{ image.path }}"/>
+            <img class="thumbnail" src="/img/blank.png" alt="" data-echo="{{ site.baseurl }}{{ image.path }}" height=600  width=800 />
         </a>
     </div>
 </div>
