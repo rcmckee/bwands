@@ -2,10 +2,10 @@
 layout: default
 galleries:
   - title: Link to homepage
-    image: /bwands/img/1.jpg
+    image: /img/photoportfolio/16109952671276.png
     url: https:www.gizmodo.com
   - title: Link to image gallery
-    image: /bwands/img/2.jpg
+    image: /img/photoportfolio/16109952671277.png
     url: https://www.techcrunch.com
 ---
 
@@ -22,46 +22,3 @@ galleries:
 {% include image-gallery-index.html %}
 
 {% endif %}
-
-
-{% for project in site.portfolio%}
-
-{% if project.redirect %}
-<div class="project">
-    <div class="thumbnail">
-        <a href="{{ project.redirect }}" target="_blank">
-        {% if project.img %}
-        <img class="thumbnail" src="{{ site.baseurl }}{{ project.img }}"/>
-        {% else %}
-        <div class="thumbnail blankbox"></div>
-        {% endif %}    
-        <span>
-            <h1>{{ project.title }}</h1>
-            <br/>
-            <p>{{ project.description }}</p>
-        </span>
-        </a>
-    </div>
-</div>
-{% else %}
-
-<div class="project ">
-    <div class="thumbnail">
-        <a href="{{ site.baseurl }}{{ project.url }}">
-        {% if project.img %}
-        <img class="thumbnail" src="{{ site.baseurl }}{{ project.img }}"/>
-        {% else %}
-        <div class="thumbnail blankbox"></div>
-        {% endif %}    
-        <span>
-            <h1>{{ project.title }}</h1>
-            <br/>
-            <p>{{ project.description }}</p>
-        </span>
-        </a>
-    </div>
-</div>
-
-{% endif %}
-
-{% endfor %}
