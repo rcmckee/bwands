@@ -1,0 +1,32 @@
+# Site settings
+baseurl = "http://www.BWANDS.com/"
+languageCode = "en-us"
+title = "BWANDS.com - Window shop again"
+theme = "hugrid"
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = "UA-XXXXXXXX-Y"
+
+contentdir = "content"
+datadir = "data"
+layoutdir = "layouts"
+publishdir = "public"
+
+[params]
+    # Meta
+    title = "BWANDS.com"
+    subtitle = "This is not product shopping. This is window shopping of brands."
+    author = "Robert McKee"
+    description = "BWANDS.com - window shopping of brands."
+    keywords = "bwands.com, bwands, brands, window shopping, new brands, discover, discovery"
+
+    # Body background color
+    bodybgcolor = "#f9f9f9"
+
+    # Preview container button text
+    buttontext = "See Website"
+
+    # Footer text
+    footertext = "Made by a person who was tired of seeing the same algorithm suggested products. Who wanted to buy from the brand so I could trust the quality and return it if it didn't work."
+
+    # add extra-css
+    # custom_css = ['css/extra1.css', 'css/extra2.css']
